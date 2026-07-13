@@ -1,4 +1,4 @@
-# my tmux config
+# My tmux config
 
 Personal tmux configuration. Commited to Github for cross device usage.
 
