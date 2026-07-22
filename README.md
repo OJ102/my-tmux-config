@@ -2,6 +2,16 @@
 
 Personal tmux configuration. Commited to Github for cross device usage.
 
+## Getting started
+
+```bash
+git clone https://github.com/OJ102/my-tmux-config.git ~/my-tmux-config
+ln -sf ~/my-tmux-config/.tmux.conf ~/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+Then start tmux and press `prefix I` to install plugins.
+
 ## Key bindings
 
 - Prefix: `C-s` (I switched my capslock to ctrl)
