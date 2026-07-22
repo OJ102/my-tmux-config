@@ -4,7 +4,19 @@ Personal tmux configuration. Commited to Github for cross device usage.
 
 ## Getting started
 
+### macOS
+
 ```bash
+brew install tmux
+git clone https://github.com/OJ102/my-tmux-config.git ~/my-tmux-config
+ln -sf ~/my-tmux-config/.tmux.conf ~/.tmux.conf
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+```
+
+### Linux
+
+```bash
+sudo apt install tmux   # or your distro's package manager
 git clone https://github.com/OJ102/my-tmux-config.git ~/my-tmux-config
 ln -sf ~/my-tmux-config/.tmux.conf ~/.tmux.conf
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
